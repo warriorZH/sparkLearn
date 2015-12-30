@@ -1,0 +1,6 @@
+#ifndef CONFIG_HPP_INCLUDED
+#define CONFIG_HPP_INCLUDED
+
+
+
+#endif // CONFIG_HPP_INCLUDED

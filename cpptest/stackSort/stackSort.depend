@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1456021012 source:/home/warrior/gitDir/cpptest/stackSort/heapManage.cpp
+	"heapManage.h"
+
+1455976681 /home/warrior/gitDir/cpptest/stackSort/heapManage.h
+	<iostream>
+	<stdio.h>
+
+1456046834 source:/home/warrior/gitDir/cpptest/stackSort/main.cpp
+	"heapManage.h"
+

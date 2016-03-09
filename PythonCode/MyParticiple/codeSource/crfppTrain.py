@@ -10,6 +10,8 @@
 
 import re
 import commands
+import sys
+import os
 
 #********************-----------------********************#
 
@@ -96,13 +98,27 @@ class crfppTrain(object):
         resultStatue,resultOutput = commands.getstatusoutput(command)
         print resultOutput
 
-
-sourcePath = "/home/warrior/gitDir/PythonCode/MyParticiple/dataSource/training/pku_training.utf8"
-resultpath = "/home/warrior/gitDir/PythonCode/MyParticiple/crfMidFiles/train_form_result.utf8"
-templatePath = "/home/warrior/gitDir/PythonCode/MyParticiple/codeSource/template"
-crftrain = crfppTrain()
-#crftrain.getTrainData(sourcePath,resultpath)
-#print "get traing data complete!!"
-print "start training!!"
-crftrain.excuteCRFTrain(templatePath, resultpath, "crf_model")
-print "training complete!!"
+if __name__ == "__main__" :
+    #sourcePath = "/home/warrior/gitDir/PythonCode/MyParticiple/dataSource/training/pku_training.utf8"
+    #resultpath = "/home/warrior/gitDir/PythonCode/MyParticiple/crfMidFiles/train_form_result.utf8"
+    #templatePath = "/home/warrior/gitDir/PythonCode/MyParticiple/codeSource/template"
+    #crf_model_name = "crf_model"
+    if len(sys.argv) == 4:
+        sourcePath = sys.argv[1]
+        os.mkdir("tmp")
+        resultpath = os.getcwd()+"/tmp/train_data_form.utf8"
+        templatePath = sys.argv[2]
+        crf_model_name = sys.argv[3]
+        crftrain = crfppTrain()
+        crftrain.getTrainData(sourcePath,resultpath)
+        print "get traing data complete!!"
+        print "start training!!"
+        crftrain.excuteCRFTrain(templatePath, resultpath, crf_model_name)
+        print "training complete!!"
+    elif (len(sys.argv)>0) & (sys.argv[1] == "help"):
+        print "crf train command help:"
+        print "1.the train data source is in utf8 form"
+        print "2.command example:python crfppTrain.py  train_source_data_path template_path crf_model_name"
+    else:
+        print "arguments error!!"
+        print "command example:python crfppTrain.py  train_source_data_path template_path crf_model_name"

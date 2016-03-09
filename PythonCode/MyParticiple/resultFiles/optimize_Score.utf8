@@ -3184,8 +3184,8 @@ TEST WORDS PRECISION:	0.978
 之								之
 成为								成为
 现实								现实
-，							      |	，还
-还							      <
+，								，
+还								还
 需要								需要
 我们								我们
 做								做
@@ -3195,13 +3195,13 @@ TEST WORDS PRECISION:	0.978
 努力								努力
 。								。
 INSERTIONS:	0
-DELETIONS:	3
-SUBSTITUTIONS:	3
-NCHANGE:	6
+DELETIONS:	2
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	94
-NTEST:	91
-TRUE WORDS RECALL:	0.936
-TEST WORDS PRECISION:	0.967
+NTEST:	92
+TRUE WORDS RECALL:	0.957
+TEST WORDS PRECISION:	0.978
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----57
 显然								显然
 ，								，
@@ -7023,8 +7023,8 @@ TEST WORDS PRECISION:	0.938
 中建岛								中建岛
 守备队								守备队
 官兵								官兵
-，							      |	，还
-还							      <
+，								，
+还								还
 用								用
 2100							      |	2100颗
 颗							      <
@@ -7053,13 +7053,13 @@ TEST WORDS PRECISION:	0.938
 内								内
 。								。
 INSERTIONS:	0
-DELETIONS:	4
-SUBSTITUTIONS:	4
-NCHANGE:	8
+DELETIONS:	3
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	89
-NTEST:	85
-TRUE WORDS RECALL:	0.910
-TEST WORDS PRECISION:	0.953
+NTEST:	86
+TRUE WORDS RECALL:	0.933
+TEST WORDS PRECISION:	0.965
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----113
 2000年								2000年
 12月								12月
@@ -7229,8 +7229,8 @@ TEST WORDS PRECISION:	1.000
 举行								举行
 登山								登山
 活动								活动
-，							      |	，还
-还							      <
+，								，
+还								还
 在								在
 市区								市区
 的								的
@@ -7269,13 +7269,13 @@ TEST WORDS PRECISION:	1.000
 高潮								高潮
 。								。
 INSERTIONS:	0
-DELETIONS:	7
-SUBSTITUTIONS:	7
-NCHANGE:	14
+DELETIONS:	6
+SUBSTITUTIONS:	6
+NCHANGE:	12
 NTRUTH:	117
-NTEST:	110
-TRUE WORDS RECALL:	0.880
-TEST WORDS PRECISION:	0.936
+NTEST:	111
+TRUE WORDS RECALL:	0.897
+TEST WORDS PRECISION:	0.946
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----116
 本报								本报
 编辑部								编辑部
@@ -10521,8 +10521,8 @@ TEST WORDS PRECISION:	0.960
 克林顿								克林顿
 作								作
 交易								交易
-，							      |	，还
-还							      <
+，								，
+还								还
 不如								不如
 留待								留待
 和								和
@@ -10552,13 +10552,13 @@ TEST WORDS PRECISION:	0.960
 ”								”
 。								。
 INSERTIONS:	0
-DELETIONS:	4
-SUBSTITUTIONS:	6
-NCHANGE:	10
+DELETIONS:	3
+SUBSTITUTIONS:	5
+NCHANGE:	8
 NTRUTH:	57
-NTEST:	53
-TRUE WORDS RECALL:	0.825
-TEST WORDS PRECISION:	0.887
+NTEST:	54
+TRUE WORDS RECALL:	0.860
+TEST WORDS PRECISION:	0.907
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----157
 （								（
 本报								本报
@@ -11978,20 +11978,20 @@ TEST WORDS PRECISION:	0.500
 后								后
 环游								环游
 世界								世界
-，							      |	，还
-还							      |	到过
-到							      <
+，								，
+还								还
+到							      |	到过
 过							      <
 中国								中国
 。								。
 INSERTIONS:	0
-DELETIONS:	6
-SUBSTITUTIONS:	10
-NCHANGE:	16
+DELETIONS:	5
+SUBSTITUTIONS:	9
+NCHANGE:	14
 NTRUTH:	95
-NTEST:	89
-TRUE WORDS RECALL:	0.832
-TEST WORDS PRECISION:	0.888
+NTEST:	90
+TRUE WORDS RECALL:	0.853
+TEST WORDS PRECISION:	0.900
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----193
 话题								话题
 自然								自然
@@ -29844,8 +29844,8 @@ TEST WORDS PRECISION:	1.000
 的								的
 中国								中国
 名作								名作
-，							      |	，还
-还							      <
+，								，
+还								还
 演奏								演奏
 了								了
 德沃夏克						      |	德沃
@@ -30006,13 +30006,13 @@ TEST WORDS PRECISION:	1.000
 前景								前景
 。								。
 INSERTIONS:	2
-DELETIONS:	7
-SUBSTITUTIONS:	9
-NCHANGE:	18
+DELETIONS:	6
+SUBSTITUTIONS:	8
+NCHANGE:	16
 NTRUTH:	217
-NTEST:	212
-TRUE WORDS RECALL:	0.926
-TEST WORDS PRECISION:	0.948
+NTEST:	213
+TRUE WORDS RECALL:	0.935
+TEST WORDS PRECISION:	0.953
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----545
 有关								有关
 方面								方面
@@ -42060,8 +42060,8 @@ TEST WORDS PRECISION:	1.000
 工作								工作
 的								的
 同时								同时
-，							      |	，还
-还							      <
+，								，
+还								还
 注重								注重
 加强								加强
 自身								自身
@@ -42127,13 +42127,13 @@ TEST WORDS PRECISION:	1.000
 作用								作用
 。								。
 INSERTIONS:	1
-DELETIONS:	5
-SUBSTITUTIONS:	8
-NCHANGE:	14
+DELETIONS:	4
+SUBSTITUTIONS:	7
+NCHANGE:	12
 NTRUTH:	98
-NTEST:	94
-TRUE WORDS RECALL:	0.867
-TEST WORDS PRECISION:	0.904
+NTEST:	95
+TRUE WORDS RECALL:	0.888
+TEST WORDS PRECISION:	0.916
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----771
 “								“
 辞								辞
@@ -45901,8 +45901,8 @@ TEST WORDS PRECISION:	0.957
 除了								除了
 自己								自己
 用								用
-，							      |	，还
-还							      <
+，								，
+还								还
 待								待
 送								送
 各位								各位
@@ -45932,13 +45932,13 @@ TEST WORDS PRECISION:	0.957
 水泄不通							水泄不通
 。								。
 INSERTIONS:	2
-DELETIONS:	5
-SUBSTITUTIONS:	7
-NCHANGE:	14
+DELETIONS:	4
+SUBSTITUTIONS:	6
+NCHANGE:	12
 NTRUTH:	64
-NTEST:	61
-TRUE WORDS RECALL:	0.812
-TEST WORDS PRECISION:	0.852
+NTEST:	62
+TRUE WORDS RECALL:	0.844
+TEST WORDS PRECISION:	0.871
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----837
 也								也
 有								有
@@ -58899,8 +58899,8 @@ TEST WORDS PRECISION:	0.951
 娱乐								娱乐
 的								的
 目的								目的
-。							      |	。那
-那							      <
+。								。
+那								那
 是								是
 1963年								1963年
 ，								，
@@ -59000,13 +59000,13 @@ TEST WORDS PRECISION:	0.951
 商机								商机
 。								。
 INSERTIONS:	1
-DELETIONS:	4
-SUBSTITUTIONS:	5
-NCHANGE:	10
+DELETIONS:	3
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	109
-NTEST:	106
-TRUE WORDS RECALL:	0.917
-TEST WORDS PRECISION:	0.943
+NTEST:	107
+TRUE WORDS RECALL:	0.936
+TEST WORDS PRECISION:	0.953
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1022
 现在								现在
 ，								，
@@ -63413,8 +63413,8 @@ TEST WORDS PRECISION:	0.984
 是								是
 不够								不够
 的								的
-，							      |	，还
-还							      <
+，								，
+还								还
 必须								必须
 “								“
 善于								善于
@@ -63458,13 +63458,13 @@ TEST WORDS PRECISION:	0.984
 办事								办事
 。								。
 INSERTIONS:	0
-DELETIONS:	1
-SUBSTITUTIONS:	1
-NCHANGE:	2
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	55
-NTEST:	54
-TRUE WORDS RECALL:	0.964
-TEST WORDS PRECISION:	0.981
+NTEST:	55
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1058
 人才								人才
 具有								具有
@@ -64329,8 +64329,8 @@ TEST WORDS PRECISION:	0.963
 “								“
 谁								谁
 投资								投资
-，							      |	，谁
-谁							      <
+，								，
+谁								谁
 受益								受益
 ”								”
 的								的
@@ -64367,8 +64367,8 @@ TEST WORDS PRECISION:	0.963
 可以								可以
 引进								引进
 外资								外资
-，							      |	，还
-还							      <
+，								，
+还								还
 可以								可以
 通过								通过
 股份制								股份制
@@ -64412,13 +64412,13 @@ TEST WORDS PRECISION:	0.963
 建设								建设
 。								。
 INSERTIONS:	0
-DELETIONS:	6
-SUBSTITUTIONS:	6
-NCHANGE:	12
+DELETIONS:	4
+SUBSTITUTIONS:	4
+NCHANGE:	8
 NTRUTH:	195
-NTEST:	189
-TRUE WORDS RECALL:	0.938
-TEST WORDS PRECISION:	0.968
+NTEST:	191
+TRUE WORDS RECALL:	0.959
+TEST WORDS PRECISION:	0.979
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1065
 经营								经营
 城市								城市
@@ -64518,8 +64518,8 @@ TEST WORDS PRECISION:	0.968
 一							      |	一家
 家							      <
 亏损								亏损
-，							      |	，还
-还							      <
+，								，
+还								还
 新增								新增
 车辆								车辆
 195							      |	195台
@@ -64592,8 +64592,8 @@ TEST WORDS PRECISION:	0.968
 便								便
 节节								节节
 攀升								攀升
-，							      |	，还
-还							      <
+，								，
+还								还
 在								在
 动工								动工
 阶段								阶段
@@ -64728,13 +64728,13 @@ TEST WORDS PRECISION:	0.968
 来								来
 。								。
 INSERTIONS:	0
-DELETIONS:	13
-SUBSTITUTIONS:	12
-NCHANGE:	25
+DELETIONS:	11
+SUBSTITUTIONS:	10
+NCHANGE:	21
 NTRUTH:	307
-NTEST:	294
-TRUE WORDS RECALL:	0.919
-TEST WORDS PRECISION:	0.959
+NTEST:	296
+TRUE WORDS RECALL:	0.932
+TEST WORDS PRECISION:	0.966
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1066
 新							      |	新世纪
 世纪							      <
@@ -67040,8 +67040,8 @@ TEST WORDS PRECISION:	0.959
 人生								人生
 》								》
 等								等
-，							      |	，还
-还							      <
+，								，
+还								还
 会								会
 根据								根据
 情况								情况
@@ -67052,13 +67052,13 @@ TEST WORDS PRECISION:	0.959
 栏目								栏目
 。								。
 INSERTIONS:	0
-DELETIONS:	6
-SUBSTITUTIONS:	7
-NCHANGE:	13
+DELETIONS:	5
+SUBSTITUTIONS:	6
+NCHANGE:	11
 NTRUTH:	118
-NTEST:	112
-TRUE WORDS RECALL:	0.890
-TEST WORDS PRECISION:	0.938
+NTEST:	113
+TRUE WORDS RECALL:	0.907
+TEST WORDS PRECISION:	0.947
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1087
 来稿								来稿
 请								请
@@ -70689,8 +70689,8 @@ TEST WORDS PRECISION:	0.909
 债务								债务
 ，								，
 此外								此外
-，							      |	，还
-还							      <
+，								，
+还								还
 积极								积极
 做好								做好
 400							      |	400亩
@@ -70737,13 +70737,13 @@ TEST WORDS PRECISION:	0.909
 上缴								上缴
 。								。
 INSERTIONS:	0
-DELETIONS:	7
-SUBSTITUTIONS:	8
-NCHANGE:	15
+DELETIONS:	6
+SUBSTITUTIONS:	7
+NCHANGE:	13
 NTRUTH:	175
-NTEST:	168
-TRUE WORDS RECALL:	0.914
-TEST WORDS PRECISION:	0.952
+NTEST:	169
+TRUE WORDS RECALL:	0.926
+TEST WORDS PRECISION:	0.959
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1129
 支出								支出
 管理								管理
@@ -81322,8 +81322,8 @@ TEST WORDS PRECISION:	0.918
 示范								示范
 单位								单位
 ”								”
-，							      |	，还
-还							      <
+，								，
+还								还
 荣获								荣获
 “								“
 河北省								河北省
@@ -81333,13 +81333,13 @@ TEST WORDS PRECISION:	0.918
 称号								称号
 。								。
 INSERTIONS:	0
-DELETIONS:	6
-SUBSTITUTIONS:	6
-NCHANGE:	12
+DELETIONS:	5
+SUBSTITUTIONS:	5
+NCHANGE:	10
 NTRUTH:	81
-NTEST:	75
-TRUE WORDS RECALL:	0.852
-TEST WORDS PRECISION:	0.920
+NTEST:	76
+TRUE WORDS RECALL:	0.877
+TEST WORDS PRECISION:	0.934
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1263
 在								在
 图书业								图书业
@@ -83345,8 +83345,8 @@ TEST WORDS PRECISION:	0.968
 经费								经费
 6250万								6250万
 元								元
-，							      |	，还
-还							      <
+，								，
+还								还
 从								从
 种子								种子
 经营额								经营额
@@ -83480,13 +83480,13 @@ TEST WORDS PRECISION:	0.968
 元								元
 。								。
 INSERTIONS:	0
-DELETIONS:	2
-SUBSTITUTIONS:	7
-NCHANGE:	9
+DELETIONS:	1
+SUBSTITUTIONS:	6
+NCHANGE:	7
 NTRUTH:	175
-NTEST:	173
-TRUE WORDS RECALL:	0.949
-TEST WORDS PRECISION:	0.960
+NTEST:	174
+TRUE WORDS RECALL:	0.960
+TEST WORDS PRECISION:	0.966
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1298
 对								对
 假冒							      |	假冒伪劣
@@ -84048,10 +84048,10 @@ TEST WORDS PRECISION:	0.990
 一								一
 举措								举措
 引							      |	引人关注
-人							      |	，还
+人							      <
 关注							      <
-，							      <
-还							      <
+，								，
+还								还
 在于								在于
 它								它
 的								的
@@ -84108,13 +84108,13 @@ TEST WORDS PRECISION:	0.990
 枉然								枉然
 。								。
 INSERTIONS:	0
-DELETIONS:	5
-SUBSTITUTIONS:	4
-NCHANGE:	9
+DELETIONS:	4
+SUBSTITUTIONS:	3
+NCHANGE:	7
 NTRUTH:	63
-NTEST:	58
-TRUE WORDS RECALL:	0.857
-TEST WORDS PRECISION:	0.931
+NTEST:	59
+TRUE WORDS RECALL:	0.889
+TEST WORDS PRECISION:	0.949
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1311
 国图								国图
 文津								文津
@@ -96413,8 +96413,8 @@ TEST WORDS PRECISION:	1.000
 技术								技术
 开发								开发
 机构								机构
-，							      |	，还
-还							      <
+，								，
+还								还
 通过								通过
 联姻								联姻
 等								等
@@ -96431,13 +96431,13 @@ TEST WORDS PRECISION:	1.000
 技术								技术
 。								。
 INSERTIONS:	0
-DELETIONS:	2
-SUBSTITUTIONS:	2
-NCHANGE:	4
+DELETIONS:	1
+SUBSTITUTIONS:	1
+NCHANGE:	2
 NTRUTH:	109
-NTEST:	107
-TRUE WORDS RECALL:	0.963
-TEST WORDS PRECISION:	0.981
+NTEST:	108
+TRUE WORDS RECALL:	0.982
+TEST WORDS PRECISION:	0.991
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1540
 （								（
 三								三
@@ -98616,8 +98616,8 @@ TEST WORDS PRECISION:	0.871
 的								的
 渎职								渎职
 案件								案件
-，							      |	，还
-还							      <
+，								，
+还								还
 结合								结合
 典型								典型
 案例								案例
@@ -98634,13 +98634,13 @@ TEST WORDS PRECISION:	0.871
 效果								效果
 。								。
 INSERTIONS:	3
-DELETIONS:	6
-SUBSTITUTIONS:	9
-NCHANGE:	18
+DELETIONS:	5
+SUBSTITUTIONS:	8
+NCHANGE:	16
 NTRUTH:	131
-NTEST:	128
-TRUE WORDS RECALL:	0.885
-TEST WORDS PRECISION:	0.906
+NTEST:	129
+TRUE WORDS RECALL:	0.901
+TEST WORDS PRECISION:	0.915
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1566
 笑脸相迎							笑脸相迎
 椅子								椅子
@@ -98870,8 +98870,8 @@ TEST WORDS PRECISION:	0.966
 处理								处理
 不								不
 彻底								彻底
-，							      |	，还
-还							      <
+，								，
+还								还
 再								再
 回访								回访
 ，								，
@@ -98920,13 +98920,13 @@ TEST WORDS PRECISION:	0.966
 元								元
 。								。
 INSERTIONS:	0
-DELETIONS:	8
-SUBSTITUTIONS:	8
-NCHANGE:	16
+DELETIONS:	7
+SUBSTITUTIONS:	7
+NCHANGE:	14
 NTRUTH:	190
-NTEST:	182
-TRUE WORDS RECALL:	0.916
-TEST WORDS PRECISION:	0.956
+NTEST:	183
+TRUE WORDS RECALL:	0.926
+TEST WORDS PRECISION:	0.962
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1569
 “								“
 新							      |	新官
@@ -100242,21 +100242,21 @@ TEST WORDS PRECISION:	0.953
 得								得
 如此								如此
 认真								认真
-，							      |	，还
-还							      <
+，								，
+还								还
 不								不
 多								多
 见								见
 。								。
 ”								”
 INSERTIONS:	1
-DELETIONS:	7
-SUBSTITUTIONS:	8
-NCHANGE:	16
+DELETIONS:	6
+SUBSTITUTIONS:	7
+NCHANGE:	14
 NTRUTH:	92
-NTEST:	86
-TRUE WORDS RECALL:	0.837
-TEST WORDS PRECISION:	0.895
+NTEST:	87
+TRUE WORDS RECALL:	0.859
+TEST WORDS PRECISION:	0.908
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1592
 这次								这次
 公开								公开
@@ -100381,8 +100381,8 @@ TEST WORDS PRECISION:	0.952
 了								了
 民主								民主
 测评								测评
-，							      |	，还
-还							      <
+，								，
+还								还
 与								与
 1928							      |	1928人
 人							      <
@@ -100426,13 +100426,13 @@ TEST WORDS PRECISION:	0.952
 等								等
 。								。
 INSERTIONS:	0
-DELETIONS:	6
-SUBSTITUTIONS:	6
-NCHANGE:	12
+DELETIONS:	5
+SUBSTITUTIONS:	5
+NCHANGE:	10
 NTRUTH:	94
-NTEST:	88
-TRUE WORDS RECALL:	0.872
-TEST WORDS PRECISION:	0.932
+NTEST:	89
+TRUE WORDS RECALL:	0.894
+TEST WORDS PRECISION:	0.944
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1594
 通过								通过
 反复								反复
@@ -102509,8 +102509,8 @@ TEST WORDS PRECISION:	0.922
 领导								领导
 知道								知道
 后								后
-，							      |	，还
-还							      <
+，								，
+还								还
 专门								专门
 组织								组织
 人								人
@@ -102560,13 +102560,13 @@ TEST WORDS PRECISION:	0.922
 主张								主张
 。								。
 INSERTIONS:	0
-DELETIONS:	4
-SUBSTITUTIONS:	4
-NCHANGE:	8
+DELETIONS:	3
+SUBSTITUTIONS:	3
+NCHANGE:	6
 NTRUTH:	65
-NTEST:	61
-TRUE WORDS RECALL:	0.877
-TEST WORDS PRECISION:	0.934
+NTEST:	62
+TRUE WORDS RECALL:	0.908
+TEST WORDS PRECISION:	0.952
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1624
 第六								第六
 届								届
@@ -104889,8 +104889,8 @@ TEST WORDS PRECISION:	0.938
 基本								基本
 知识								知识
 以外								以外
-，							      |	，还
-还							      <
+，								，
+还								还
 教授								教授
 许多								许多
 与								与
@@ -104949,13 +104949,13 @@ TEST WORDS PRECISION:	0.938
 基础								基础
 。								。
 INSERTIONS:	0
-DELETIONS:	2
-SUBSTITUTIONS:	4
-NCHANGE:	6
+DELETIONS:	1
+SUBSTITUTIONS:	3
+NCHANGE:	4
 NTRUTH:	87
-NTEST:	85
-TRUE WORDS RECALL:	0.931
-TEST WORDS PRECISION:	0.953
+NTEST:	86
+TRUE WORDS RECALL:	0.954
+TEST WORDS PRECISION:	0.965
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1656
 除了								除了
 各级								各级
@@ -105006,8 +105006,8 @@ TEST WORDS PRECISION:	0.953
 的								的
 奖学金								奖学金
 外								外
-，							      |	，还
-还							      <
+，								，
+还								还
 定期								定期
 到								到
 一些								一些
@@ -105062,13 +105062,13 @@ TEST WORDS PRECISION:	0.953
 公司								公司
 。								。
 INSERTIONS:	1
-DELETIONS:	2
-SUBSTITUTIONS:	3
-NCHANGE:	6
+DELETIONS:	1
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	103
-NTEST:	102
-TRUE WORDS RECALL:	0.951
-TEST WORDS PRECISION:	0.961
+NTEST:	103
+TRUE WORDS RECALL:	0.971
+TEST WORDS PRECISION:	0.971
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1657
 网络								网络
 的								的
@@ -105428,8 +105428,8 @@ TEST WORDS PRECISION:	0.971
 研究								研究
 成果								成果
 ”								”
-，							      |	，还
-还							      <
+，								，
+还								还
 在								在
 班上							      |	班
 							      >	上
@@ -105501,13 +105501,13 @@ TEST WORDS PRECISION:	0.971
 了								了
 。								。
 INSERTIONS:	2
-DELETIONS:	4
-SUBSTITUTIONS:	8
-NCHANGE:	14
+DELETIONS:	3
+SUBSTITUTIONS:	7
+NCHANGE:	12
 NTRUTH:	171
-NTEST:	169
-TRUE WORDS RECALL:	0.930
-TEST WORDS PRECISION:	0.941
+NTEST:	170
+TRUE WORDS RECALL:	0.942
+TEST WORDS PRECISION:	0.947
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1660
 加拿大								加拿大
 将								将
@@ -117512,8 +117512,8 @@ TEST WORDS PRECISION:	1.000
 不再								不再
 持有								持有
 异议								异议
-，							      |	，还
-还							      <
+，								，
+还								还
 依法								依法
 付给								付给
 村委会								村委会
@@ -117564,13 +117564,13 @@ TEST WORDS PRECISION:	1.000
 的								的
 。								。
 INSERTIONS:	0
-DELETIONS:	4
-SUBSTITUTIONS:	10
-NCHANGE:	14
+DELETIONS:	3
+SUBSTITUTIONS:	9
+NCHANGE:	12
 NTRUTH:	81
-NTEST:	77
-TRUE WORDS RECALL:	0.827
-TEST WORDS PRECISION:	0.870
+NTEST:	78
+TRUE WORDS RECALL:	0.852
+TEST WORDS PRECISION:	0.885
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1869
 2000年								2000年
 1月								1月
@@ -117929,8 +117929,8 @@ TEST WORDS PRECISION:	1.000
 ”								”
 内功								内功
 外								外
-，							      |	，还
-还							      <
+，								，
+还								还
 必须								必须
 依靠								依靠
 党委								党委
@@ -117956,13 +117956,13 @@ TEST WORDS PRECISION:	1.000
 环境								环境
 。								。
 INSERTIONS:	0
-DELETIONS:	1
-SUBSTITUTIONS:	1
-NCHANGE:	2
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	45
-NTEST:	44
-TRUE WORDS RECALL:	0.956
-TEST WORDS PRECISION:	0.977
+NTEST:	45
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1878
 良好								良好
 的								的
@@ -118013,8 +118013,8 @@ TEST WORDS PRECISION:	0.977
 犯罪								犯罪
 案件								案件
 中								中
-，							      |	，还
-还							      <
+，								，
+还								还
 不时								不时
 受到								受到
 一些								一些
@@ -118223,13 +118223,13 @@ TEST WORDS PRECISION:	0.977
 工作								工作
 。								。
 INSERTIONS:	0
-DELETIONS:	3
-SUBSTITUTIONS:	3
-NCHANGE:	6
+DELETIONS:	2
+SUBSTITUTIONS:	2
+NCHANGE:	4
 NTRUTH:	258
-NTEST:	255
-TRUE WORDS RECALL:	0.977
-TEST WORDS PRECISION:	0.988
+NTEST:	256
+TRUE WORDS RECALL:	0.984
+TEST WORDS PRECISION:	0.992
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1879
 营造								营造
 良好								良好
@@ -119018,8 +119018,8 @@ TEST WORDS PRECISION:	0.939
 企业								企业
 职工								职工
 大会								大会
-，							      |	，还
-还							      <
+，								，
+还								还
 了								了
 刘								刘
 太忠								太忠
@@ -119027,13 +119027,13 @@ TEST WORDS PRECISION:	0.939
 清白								清白
 。								。
 INSERTIONS:	1
-DELETIONS:	1
-SUBSTITUTIONS:	2
-NCHANGE:	4
+DELETIONS:	0
+SUBSTITUTIONS:	1
+NCHANGE:	2
 NTRUTH:	64
-NTEST:	64
-TRUE WORDS RECALL:	0.953
-TEST WORDS PRECISION:	0.953
+NTEST:	65
+TRUE WORDS RECALL:	0.984
+TEST WORDS PRECISION:	0.969
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1890
 敢于								敢于
 碰							      |	碰硬匡扶正义
@@ -122324,18 +122324,18 @@ TEST WORDS PRECISION:	0.750
 掺								掺
 半点								半点
 水分								水分
-，							      |	，谁
-谁							      <
+，								，
+谁								谁
 想								想
 坐等								坐等
 观望								观望
-，							      |	，谁
-谁							      <
+，								，
+谁								谁
 想								想
 侥幸								侥幸
 过关								过关
-，							      |	，谁
-谁							      <
+，								，
+谁								谁
 就								就
 会								会
 被								被
@@ -122367,13 +122367,13 @@ TEST WORDS PRECISION:	0.750
 步伐								步伐
 。								。
 INSERTIONS:	0
-DELETIONS:	3
-SUBSTITUTIONS:	3
-NCHANGE:	6
+DELETIONS:	0
+SUBSTITUTIONS:	0
+NCHANGE:	0
 NTRUTH:	58
-NTEST:	55
-TRUE WORDS RECALL:	0.897
-TEST WORDS PRECISION:	0.945
+NTEST:	58
+TRUE WORDS RECALL:	1.000
+TEST WORDS PRECISION:	1.000
 --../gold/pku_test_gold.utf8-------../../resultFiles/optimize_result.utf8----1940
 遵义市								遵义市
 红花岗区							红花岗区
@@ -122738,15 +122738,15 @@ TRUE WORDS RECALL:	1.000
 TEST WORDS PRECISION:	1.000
 === SUMMARY:
 === TOTAL INSERTIONS:	870
-=== TOTAL DELETIONS:	3478
-=== TOTAL SUBSTITUTIONS:	4977
-=== TOTAL NCHANGE:	9325
+=== TOTAL DELETIONS:	3443
+=== TOTAL SUBSTITUTIONS:	4942
+=== TOTAL NCHANGE:	9255
 === TOTAL TRUE WORD COUNT:	104372
-=== TOTAL TEST WORD COUNT:	101764
-=== TOTAL TRUE WORDS RECALL:	0.919
+=== TOTAL TEST WORD COUNT:	101799
+=== TOTAL TRUE WORDS RECALL:	0.920
 === TOTAL TEST WORDS PRECISION:	0.943
 === F MEASURE:	0.931
 === OOV Rate:	0.058
 === OOV Recall Rate:	0.674
-=== IV Recall Rate:	0.934
-###	../../resultFiles/optimize_result.utf8	870	3478	4977	9325	104372	101764	0.919	0.943	0.931	0.058	0.674	0.934
+=== IV Recall Rate:	0.935
+###	../../resultFiles/optimize_result.utf8	870	3443	4942	9255	104372	101799	0.920	0.943	0.931	0.058	0.674	0.935

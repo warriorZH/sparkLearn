@@ -11,6 +11,7 @@
 import commands
 import re
 import pdb
+import os
 
 #********************-----------------********************#
 
@@ -96,7 +97,7 @@ class crfppTest(object):
         #    "M": tempWords += TagList[0],
         #    "E": CRFResultDataFile.write(tempWords+TagList[0]+"  ")
         #}
-        print "#####################################################"
+        #print "#####################################################"
         #pdb.set_trace()
         #onelineCRFTagData = CRFTagDataFile.readline()
         #print "online"+onelineCRFTagData
@@ -128,15 +129,28 @@ class crfppTest(object):
         CRFTagDataFile.close()
         CRFResultDataFile.close()
 
-testsourcePath = "/home/warrior/gitDir/PythonCode/MyParticiple/dataSource/testing/pku_test.utf8"
-testformPath = "/home/warrior/gitDir/PythonCode/MyParticiple/crfMidFiles/crfform.utf8"
-crftagPath = "/home/warrior/gitDir/PythonCode/MyParticiple/crfMidFiles/crftag.utf8"
-testResultPath = "/home/warrior/gitDir/PythonCode/MyParticiple/resultFiles/train_result.utf8"
+if __name__ == "__main__":
+    if len(sys.argv) == 3:
+        testsourcePath = sys.argv[1]
+        os.mkdir("tmp")
+        testformPath = os.getcwd()+"/tmp/crfform.utf8"
+        crftagPath = os.getcwd()+"/tmp/crftag.utf8"
+        testResultPath = sys.argv[2]
 
-
-crfpp = crfppTest()
-print "start test!!"
-crfpp.FormateTestData(testsourcePath,testformPath)
-crfpp.manageTestData(testformPath, crftagPath)
-crfpp.FormateTagData(crftagPath,testResultPath)
-print "test complete!!"
+        #testsourcePath = "/home/warrior/gitDir/PythonCode/MyParticiple/dataSource/testing/pku_test.utf8"
+        #testformPath = "/home/warrior/gitDir/PythonCode/MyParticiple/crfMidFiles/crfform.utf8"
+        #crftagPath = "/home/warrior/gitDir/PythonCode/MyParticiple/crfMidFiles/crftag.utf8"
+        #testResultPath = "/home/warrior/gitDir/PythonCode/MyParticiple/resultFiles/crf_result.utf8"
+        crfpp = crfppTest()
+        print "start test!!"
+        crfpp.FormateTestData(testsourcePath,testformPath)
+        crfpp.manageTestData(testformPath, crftagPath)
+        crfpp.FormateTagData(crftagPath,testResultPath)
+        print "test complete!!"
+    elif (len(sys.argv)>0) & (sys.argv[1] == "help"):
+        print "crf test command help:"
+        print "1.the test data source is in utf8 form"
+        print "2.command example:python crfppTest.py  test_source_data_path result_path"
+    else:
+        print "arguments error!!"
+        print "command example:python crfppTest.py  test_source_data_path result_path"

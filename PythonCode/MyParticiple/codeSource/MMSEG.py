@@ -10,6 +10,7 @@
 import re
 import numpy
 import pdb
+import sys
 
 #********************-----------------********************#
 
@@ -596,17 +597,50 @@ class MMSEG(object):
                 wordCountRecordDict[self.minVarianceValueRecordList[i]] = wordCountTemp
             self.wordCountRecordList = sorted(wordCountRecordDict.items(), key=lambda d:d[1], reverse=True)
             self.bestWordIndex = self.wordCountRecordList[0][0]
-            print self.bestWordIndex
+            #print self.bestWordIndex
 
 
-#preelemIndex = 0
-wordfilepath = "/home/warrior/gitDir/PythonCode/MyParticiple/dataSource/gold/pku_training_words.utf8"
-mmseg = MMSEG()
-mmseg.getwordsDict(wordfilepath)
-wordelem1 = "执"
-mmseg.findElemInWordDict(wordelem1)
-print mmseg.wordElemIndex
-#preElemIndex = mmseg.wordElemIndex
-#curElemIndex = mmseg.findElemInWordDict(wordelem2, preElemIndex)
-for i in range(mmseg.wordElemIndex,mmseg.wordElemIndex+40):
-    print("%d: %s\n" % (i, mmseg.wordList[i]))
+
+if __name__ == "__main__":
+    if len(sys.argv) == 4:
+        wordfilepath = sys.argv[1]
+        storageResultpath = sys.argv[2]
+        getPartDatapath = sys.argv[3]
+        lineCounter = 0
+        getDataFile = open(getPartDatapath, 'r')
+        storDataFile = open(storageResultpath, 'w')
+        mmseg = MMSEG()
+        mmseg.getwordsDict(wordfilepath)
+        wordelem2 = getDataFile.readline()
+        mmseg.MMSEGStep1MaxThreeLength(wordelem2, mmseg.wordList)
+        while(wordelem2):
+            for i in mmseg.sentencePartWordList:
+                storDataFile.write(i+"  ")
+            storDataFile.write("\n")
+            wordelem2 = getDataFile.readline()
+            mmseg.MMSEGStep1MaxThreeLength(wordelem2, mmseg.wordList)
+            lineCounter+=1
+            print "mmseg manage %d lines" % lineCounter
+        storDataFile.close()
+        getDataFile.close()
+    elif  (len(sys.argv)>0) & (sys.argv[1] == "help"):
+        print "mmseg test command help:"
+        print "1.the test data source is in utf8 form"
+        print "2.command example:python MMSEG.py  test_word_path test_source_data_path result_path"
+    else:
+        print "arguments error!!"
+        print "2.command example:python MMSEG.py  test_word_path test_source_data_path result_path"
+
+#wordfilepath = "/home/warrior/gitDir/PythonCode/MyParticiple/dataSource/gold/pku_training_words.utf8"
+#storageResultpath = "/home/warrior/gitDir/PythonCode/MyParticiple/mmseg_result.utf8"
+#getPartDatapath = "/home/warrior/gitDir/PythonCode/MyParticiple/dataSource/testing/pku_test.utf8"
+
+#测试findElemInWordDict功能
+#wordfilepath = "/home/warrior/gitDir/PythonCode/MyParticiple/dataSource/gold/pku_training_words.utf8"
+#mmseg = MMSEG()
+#mmseg.getwordsDict(wordfilepath)
+#wordelem1 = "执"
+#mmseg.findElemInWordDict(wordelem1)
+#print mmseg.wordElemIndex
+#for i in range(mmseg.wordElemIndex,mmseg.wordElemIndex+40):
+#    print("%d: %s\n" % (i, mmseg.wordList[i]))

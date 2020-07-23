@@ -35,7 +35,7 @@ all_word_result = all_word_dict
 # print len(all_word_result)
 file_feature_dict_list = file_wc_dict_list.map(lambda file_wc_dict: wordseg.constructFeatureDict(file_wc_dict, all_word_result))
 file_feature_dict_result = file_feature_dict_list.collect()
-#master本地运行模式
+#main本地运行模式
 # k_class_sample_record = []
 # for item in file_feature_dict_result:
 #     k_class_sample_record.append(clustermanage.K_MeansCluster(clustermanage.calcu_cosine_corr, item, file_feature_dict_result, 4))
